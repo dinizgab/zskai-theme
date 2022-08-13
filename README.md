@@ -1,6 +1,11 @@
 # Zskai theme
 
 * Just a simple ZSH theme based in the Monokai theme;
-* Needs to find a way to implement git informations and other little things to improve the theme;
 
-![Image of the theme](./theme_image.jpeg)
+** Theme without git informations:
+![Image of the theme](./images/theme_image.jpeg)
+
+** Theme with git informations
+![Image of the theme whit git red](./images/git_branch_red.jpeg)
+
+![Image of the theme whit git red](./images/git_branch_purple.jpeg)

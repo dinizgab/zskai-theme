@@ -1,36 +1,27 @@
-# Basic configs
-user_color=#F92672
-dir_color=#E69F66
-date_color=#66D9EF
-git_color=#AE81FF
+# Git configs
+ZSH_THEME_GIT_PROMPT_PREFIX='(\ue0a0 ' 
+ZSH_THEME_GIT_PROMPT_SUFFIX=')'
+ZSH_THEME_GIT_PROMPT_DIRTY=''
+ZSH_THEME_GIT_PROMPT_CLEAN=''
 
-# User and connection local
-user_prompt="%B%F{$user_color}╭─[%n@%m]%f%b"
-
-#Directories
-dir_prompt="%F{$dir_color}%0~%f"
+# User and hostname
+user_prompt='%B%F{#F92672}╭─[%n@%m]%f%b'
 
 #Date
-date="%F{$date_color}[%*]%f"
-
-# Prompt second Line
-second_line="%F{$user_color}╰─"
+date='%F{#66D9EF}[%*]%f'
 
 #Directories
-dir_prompt="%F{$dir_color}%0~%f"
+dir_prompt='%F{#E69F66}%0~%f'
 
 #Date
-date="%F{$date_color}[%*]%f"
+date='%F{#66D9EF}[%*]%f'
 
 # Prompt second Line
-second_line="%F{$user_color}╰──%f"
+second_line='%F{#F92672}╰──'
 
-#Git configs
-ZSH_THEME_GIT_PROMPT_PREFIX=" \ue0a0 -> ("
-ZSH_THEME_GIT_PROMPT_SUFFIX=") "
-ZSH_THEME_GIT_PROMPT_DIRTY=""
-ZSH_THEME_GIT_PROMPT_CLEAN=""
-git_prompt="%F{$git_color}$(git_prompt_info)%f"
+PROMPT='${user_prompt} in ${dir_prompt} - ${date}
+${second_line}$(git_prompt_info)─ $ %f%b'
 
-PROMPT="%B${user_prompt} in ${dir_prompt} - ${date}
-${second_line}${git_prompt}%F{$user_color}─ $ %f%b"
+# Unconmment this line if you would like the git info to be purple
+# PROMPT='${user_prompt} in ${dir_prompt} - ${date}
+# ${second_line}%F{#AE81FF}(git_prompt_info)%f─ $ %f%b'
