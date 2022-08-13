@@ -3,9 +3,8 @@
 * Just a simple ZSH theme based in the Monokai theme;
 
 ** Theme without git informations:
-![Image of the theme](./images/theme_image.jpeg)
+<img src="./images/theme_image.jpeg" alt="Image of the theme" width="200"/>
 
 ** Theme with git informations
-![Image of the theme with git branch red](./images/git_branch_red.jpeg)
-
-![Image of the theme with git branch purple](./images/git_branch_purple.jpeg)
+<img src="./images/git_branch_red.jpeg" alt="Image of the theme with git branch red" width="200"/>
+<img src="./images/git_branch_purple.jpeg" alt="Image of the theme with git branch purple" width="200"/>
