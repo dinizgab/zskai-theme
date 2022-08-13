@@ -32,5 +32,5 @@ ZSH_THEME_GIT_PROMPT_DIRTY=""
 ZSH_THEME_GIT_PROMPT_CLEAN=""
 git_prompt="%F{$git_color}$(git_prompt_info)%f"
 
-PROMPT="${user_prompt} in ${dir_prompt} - ${date}
-${second_line}${git_prompt}%F{$user_color}─ $ %f"
+PROMPT="%B${user_prompt} in ${dir_prompt} - ${date}
+${second_line}${git_prompt}%F{$user_color}─ $ %f%b"
