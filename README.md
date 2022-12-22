@@ -2,7 +2,7 @@
 
 * Just a simple ZSH theme based in the Monokai theme;
 
-** Theme without git informations:
+** Theme without git informations
 <img src="./images/theme_image.jpeg" alt="Image of the theme" width="100%"/>
 
 ** Theme with git informations
